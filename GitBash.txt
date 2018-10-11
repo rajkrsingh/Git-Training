@@ -1,0 +1,40 @@
+Steps:
+
+1.Open gitbash
+2.Go to ur project path where project is located (Say F:\PrimeProject\PrimeRespnse)
+3.Type git init --->For initializing empty git repository
+4.Type git add * ---->Add all files
+5.Type git commit -m "write comment" --->Saving files
+6.Type git remote add origin https://github.com/rajkrsingh/Prime-Project.git
+7.Type git push -u origin master
+
+****************
+****************
+Push an existing repository from the command line:
+
+1.Type git remote add origin https://github.com/rajkrsingh/Prime-Project.git
+
+****
+git status - to check status of file
+2.Type git push -u origin master
+
+*************
+*************
+We can commit some updated files, like this
+
+************
+************
+1.Fetch code from github: first time we have to clone..
+git clone remote repository path(https://github.com/rajkrsingh/Automation-Project)
+
+2.Once we clone the project then we used pull command to get changes in our project
+
+project path(copy from eclipse project path ) $ git pull origin master
+
+
+
+https://github.com/rajkrsingh/Automation-Project/edit/master/src/test/java/com/qa/test/TestThirdProgram.java
+
+
+
+git commit file1 file2 file5 -m "commit message"
